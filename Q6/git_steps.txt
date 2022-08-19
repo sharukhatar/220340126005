@@ -1,4 +1,11 @@
 github steps:
 1. github login
 2. create repository
-3. git clone https://github.com/sharukhatar/220340126005.git
+3. go to the cmd of file locationand type following commands 
+4.git clone https://github.com/sharukhatar/220340126005.git
+5.git push
+6.git commit -m "hello sir"
+7.git push 
+8.sername for 'https://github.com': sharukhatar
+Password for 'https://sharukhatar@github.com': 
+
