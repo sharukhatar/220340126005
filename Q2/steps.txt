@@ -1,0 +1,30 @@
+steps to create instance
+1. aws login
+2. aws console
+3. click on EC2
+4. launch instance
+5. click on ubuntu
+6. select 20.04 LTS volume type - free tier
+7. tag name - give anything
+8. generate key
+9. key value - give anything 
+10. launch instance
+11. click on instance
+12. security group
+13. click on that instance which is in security group
+14. inbound rule (if we want to edit then we can)
+15. select and click on instance
+16. connect
+17. Open an SSH client.
+18.Locate your private key file. The key used to launch this instance is diot22lab.pem
+19.Run this command
+ ssh -i "diot22lab.pem" ubuntu@ec2-65-0-76-63.ap-south-1.compute.amazonaws.com
+----------------------------------------------------- 
+inside terminal of aws instance
+ 20.sudo apt update
+ 21.sudo apt install apache2
+ 22.sudo ufw allow 'Apache'
+ 23.sudo systemctl status apache2
+ 24.hostname -I
+25.curl -4 icanhazip.com
+26 

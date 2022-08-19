@@ -1,0 +1,12 @@
+1.login - https://cloud.thingsboard.io/login
+2.go to device 
+3. add new device
+4.fill device details
+5.click on credentials
+6.select add credentials
+7.select credential type "Access token" and enter access token
+8.click add
+9. go to postman and select post
+10. enter this link( https://demo.thingsboard.io/api/v1/<Access Tokan>/telemetry) change access tokan as par the device 
+11.select send 
+12.go to things board and select latest telemetry

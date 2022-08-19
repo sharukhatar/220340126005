@@ -1,0 +1,18 @@
+version: '3.3'
+services:
+    broker :
+        image : eclipse-mosquitto
+        hostname : broker
+        container_name : broker
+        expose :
+            - "1883"
+        ports :
+            - 6502:1883
+        volumes :
+            - /home/rajesh/Desktop/Exam/edge&cloud/220340126005/Q5
+    subscriberexam :
+        build : ./subscriber
+        container_name : subscriberexam
+        hostname : sub
+        depends_on :
+            - broker
